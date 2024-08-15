@@ -1,0 +1,16 @@
+server:
+    port: 8089
+
+spring:
+    application:
+        name: selenium
+
+    datasource:
+        url: jdbc:postgresql://localhost:5432/forjun
+        username: sijun
+        password: sijun
+        driver-class-name: org.postgresql.Driver
+    jpa:
+        hibernate:
+            ddl-auto: update
+        show-sql: true
